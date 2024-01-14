@@ -1,25 +1,24 @@
 FONT = ("Courier", 24, "normal")
 
-night_coding = 33
+night_of_coding = 33
 
-def day_curse(day):
+def day_of_units(day):
     if day > 0:
-      return f"i need {day} day of coding and {night_coding} nights  "
+     return f"i need {day} day of coding and {night_of_coding} night of coding"
     else:
-        return f"not valid" 
-    
-   
+        return "not valid number"
 
-  
-user_inputDays = input("hey user hoe many day you need\n") 
+user_input = input("how many day of coding and night you need\n")
 
-new_value = int(user_inputDays)
+user_number = int(user_input)
 
 
-day_curse(new_value)
 
-calculate_value = day_curse(new_value)
-print(calculate_value)
+
+calculated_value = day_of_units(user_number)
+
+print(calculated_value)
+
 
 
 
